@@ -109,13 +109,14 @@ public class RPSGame {
 
             if (answer.equals("N")) {
                 System.out.println("Thanks for playing!");
-                System.out.println(user);
-                System.out.println(computer);
                 break;
             }
 
             round++;
         }
+
+        System.out.println(user);
+        System.out.println(computer);
 
         sc.close();
 
