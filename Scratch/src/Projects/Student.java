@@ -1,4 +1,6 @@
+package Projects;
 // i want the math grade of the student to be stored
+
 // and theese are teh functions I want.
 
 // constructor takes in a string to assign it to name and makes the grade 0/0
