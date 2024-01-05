@@ -43,7 +43,7 @@ public class Gradebook {
     public double[] findAssignmentAverages() {
         double[] result = new double[possiblePoints.length];
         for (int i = 0; i < possiblePoints.length; i++) {
-            int counter = 0;
+            double counter = 0;
             for (int j = 0; j < studentList.length; j++) {
                 counter += studentList[j].getGrades()[i];
             }
